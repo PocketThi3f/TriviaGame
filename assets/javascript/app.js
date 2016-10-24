@@ -1,6 +1,14 @@
-var hairyNames = {
-
+var timer = {
 
 
 
 }
+
+
+function countDownTimer() {
+
+
+
+}
+
+$("#countDown")
