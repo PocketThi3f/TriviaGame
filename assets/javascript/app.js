@@ -1,4 +1,4 @@
-var timeLeft = 5;
+var timeLeft = 25;
 var questions = 6;
 var correct = 0;
 var unanswered = 0;
@@ -51,3 +51,4 @@ function scoreCalc() {
 
 }
 
+$('#')

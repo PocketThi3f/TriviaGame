@@ -2,84 +2,80 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<title>Magical Journey</title>
+			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+			<link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
 </head>
 <body>
 
 	<h1 id="summBar"></h1>
+		<div id="countDown"></div>
+	
+<div class="container">
 
-	<div id="countDown"></div>
+			<p class="hairyText"> "Who is the Chosen One?"</p>
 
-	<form>
-		
-	<p class="hairyText"> "Who is the Chosen One?"</p>
-
+	<form class="unlimited">
 		<input type="radio" name="winner" class="rightA"> Harry Potter
 		<input type="radio" name="winner" class="wrongA"> Ronald Weasley
 		<input type="radio" name="winner" class="wrongA"> Hermoine Granger
 		<input type="radio" name="winner" class="wrongA"> Neville Longbottom
 		<input type="radio" name="winner" class="wrongA"> Draco Malfoy
-
 	</form>
 
-	<form>
+			<p class="hairyText"> "He who must not be named is...?"</p>
 
-	<p class="hairyText"> "He who must not be named is...?"</p>
-		
+	<form class="unlimited">
 		<input type="radio" name="death" class="wrongA"> Severus Snape
 		<input type="radio" name="death" class="wrongA"> Lucius Malfoy
 		<input type="radio" name="death" class="wrongA"> Tom Marvolo Riddle
 		<input type="radio" name="death" class="rightA"> Albus Dumbledore
 		<input type="radio" name="death" class="wrongA"> Sirius Black
-
 	</form>
-	
-	<form>
 
-	<p class="hairyText"> "It sucks every last drop of your happiness."</p>
-		
+			<p class="hairyText"> "It sucks every last drop of your happiness."</p>
+
+	<form class="unlimited">
 		<input type="radio" name="darkentity" class="wrongA"> Snatcher
 		<input type="radio" name="darkentity" class="wrongA"> Kreacher
 		<input type="radio" name="darkentity" class="rightA"> Dementor
 		<input type="radio" name="darkentity" class="wrongA"> Death Eater
 		<input type="radio" name="darkentity" class="wrongA"> Lethifold
-
 	</form>
-	
-	<form>
 
-	<p class="hairyText"> Quote: "You're a wizard, Harry."; Who said these words to Harry Potter?</p>
+			<p class="hairyText"> Quote: "You're a wizard, Harry."; Who said these words to Harry Potter?</p>
 
+	<form class="unlimited">
 		<input type="radio" name="meaning" class="wrongA"> Minerva McGonagall
 		<input type="radio" name="meaning" class="rightA"> Rubeus Hagrid
 		<input type="radio" name="meaning" class="wrongA"> Remus Lupin
 		<input type="radio" name="meaning" class="wrongA"> Quirinus Quirrell
 		<input type="radio" name="meaning" class="wrongA"> Poppy Pompfrey
-
 	</form>
 
-	<p class="hairyText"> Quote: "You Lost Me My SERVANT!"; Who is this servant?</p>
+			<p class="hairyText"> Quote: "You Lost Me My SERVANT!"; Who is this servant?</p>
 
+	<form class="unlimited">
 		<input type="radio" name="mysterious" class="wrongA"> Mountain Troll
 		<input type="radio" name="mysterious" class="wrongA"> Basilisk
 		<input type="radio" name="mysterious" class="wrongA"> Scabbers
 		<input type="radio" name="mysterious" class="wrongA"> Hedwig
 		<input type="radio" name="mysterious" class="wrongA"> Dobby
-
 	</form>
 
-	<p class="hairyText"> "In a game of Quidditch, what is the point value of a Golden Snitch?"</p>
+			<p class="hairyText"> "In a game of Quidditch, what is the point value of a Golden Snitch?"</p>
 
+	<form class="unlimited">
 		<input type="radio" name="goalie" class="wrongA"> 5 points
 		<input type="radio" name="goalie" class="wrongA"> 10 points
 		<input type="radio" name="goalie" class="wrongA"> 30 points
 		<input type="radio" name="goalie" class="rightA"> 150 points
 		<input type="radio" name="goalie" class="wrongA"> 1 point
-
 	</form>
+</div>
+		<div id="answerRoute"></div>	
 
-	<div id="answerRoute"></div>
+	<audio autoplay src="assets/audio/HarryPotterMainTheme.mp3"></audio>
 
 	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="assets/javascript/app.js"></script>

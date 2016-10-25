@@ -1,6 +1,38 @@
 body {
 
-	background-image: url('assets/images/PottermoreSortingCeremony.jpg');
+	background-image: url('http://vignette2.wikia.nocookie.net/harrypotter/images/f/ff/Pottermore_the_sorting_ceremony.jpg/revision/latest?cb=20140718104704&path-prefix=ru');
 	background-repeat: no-repeat;
-
+	background-size: 100% 100%;
 }
+
+
+.hairyText {
+
+	font-family: 'Mountains of Christmas', cursive;
+	font-size: 35px;
+	color: goldenrod;
+	text-align: center;
+}
+
+
+.unlimited {
+
+	font-size: 20px;
+	color: yellow;
+	text-align: center;
+}
+
+.container {
+
+	background-color: black;
+	margin-left: 425px;
+	width: 50%;
+	min-height: 100%;
+}
+
+/*@font-face {
+
+  font-family: 'Harry Potter';
+  src: url('http://www.fontsaddict.com/fontface/harry-potter.TTF');
+
+}*/
