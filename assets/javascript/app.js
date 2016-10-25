@@ -1,7 +1,8 @@
 var timeLeft = 5;
-var correctAnswers = 0;
-var wrongAnswers = 0;
-
+var questions = 6;
+var correct = 0;
+var unanswered = 0;
+var incorrect = 0;
 
 function countDownTimer() {
 
@@ -36,6 +37,7 @@ function staphIt() {
 
 function scoreCalc() {
 
+	$('.rightA')
 	if () {
 
 	} 
