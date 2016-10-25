@@ -1,2 +1,3 @@
 # TriviaGame
-what do you know about me?
+
+Dive into the wonderful world of Harry Potter once again.
