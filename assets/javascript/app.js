@@ -1,4 +1,4 @@
-var timeLeft = 5;
+var timeLeft = 45;
 var audio = new Audio('assets/audio/nogood.mp3');
 
 
@@ -41,30 +41,25 @@ function staphIt() {
 
 }
 
+// $('input:checked').each(function() {
 
-function scoreCalc() {
+// 	if (correct > 0) {
 
-	var correct = $('.rightA').on('click', scoreCalc);
+// 		correct++;
 
-	if (correct > 0) {
-
-		correct++;
-
-		$('.rightA').html('<h2>Marvelous, you got '+correct+' questions correct!<h2>');
+// 		$('.rightA').html('<h2>Marvelous, you got '+correct+' questions correct!<h2>');
 		
-	} 
+// 	} 
 
-	else {
+// 	else {
 
-		$('.wrongA').on('click', scoreCalc);
+// 		$('.wrongA').on('click', scoreCalc);
 
-		incorrect++;
+// 		incorrect++;
 
-	}
+// 	}
+// }
 
-
-
-}
 
 $('#challengeAcc').on('click', function() {
 
