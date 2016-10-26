@@ -35,20 +35,20 @@ function staphIt() {
 }
 
 
-function scoreCalc() {
+// function scoreCalc() {
 
-	$('.rightA')
-	if () {
+// 	$('.rightA')
+// 	if () {
 
-	} 
+// 	} 
 
-	else () {
-
-
-	}
+// 	else () {
 
 
+// 	}
 
-}
 
-$('#')
+
+// }
+
+// $('#')

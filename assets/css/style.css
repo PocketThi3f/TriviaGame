@@ -40,6 +40,12 @@ body {
 	line-height: 50px;
 }
 
+#countDown {
+
+	color: chocolate;
+	text-align: center;
+	font-size: 25px;
+}
 /*@font-face {
 
   font-family: 'Harry Potter';
