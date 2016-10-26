@@ -1,8 +1,8 @@
-var timeLeft = 25;
-var questions = 6;
-var correct = 0;
-var unanswered = 0;
-var incorrect = 0;
+var timeLeft = 30;
+
+
+
+$('.spellPool').hide();
 
 function countDownTimer() {
 
@@ -22,6 +22,13 @@ function goingDown() {
 		staphIt();
 
 		$('#countDown').html('<h1>Oops! Time is up!</h1>');
+
+		$('.container').hide();
+
+		$('.spellPool').show();
+
+		$()
+
 	}
 }
 
@@ -35,20 +42,40 @@ function staphIt() {
 }
 
 
-// function scoreCalc() {
+function scoreCalc() {
 
-// 	$('.rightA')
-// 	if () {
+	var correct = $('.rightA').on('click', scoreCalc);
 
-// 	} 
+	if (correct > 0) {
 
-// 	else () {
+		correct++;
+
+		$('.rightA').html('<h2>Marvelous, you got '+correct+' questions correct!<h2>');
+		
+	} 
+
+	else {
+
+		$('.wrongA').on('click', scoreCalc);
+
+		incorrect++;
+
+	}
 
 
-// 	}
+
+}
+
+$('#challengeAcc').on('click', function() {
+
+	$('.container').hide();
+
+		$('.spellPool').show(function() {
+
+		
 
 
+		});
 
-// }
 
-// $('#')
+});
