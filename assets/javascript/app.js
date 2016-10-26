@@ -23,7 +23,7 @@ function goingDown() {
 
 		$('#countDown').html('<h1>Oops! Time is up!</h1>');
 
-		$('.container').hide();
+		$('.container').fadeout();
 
 		$('.spellPool').fadeIn();
 
@@ -41,15 +41,17 @@ function staphIt() {
 
 }
 
-// $('input:checked').each(function() {
+// function scoreStats() {
+
+// 	$('input:checked').each(function() {
 
 // 	if (correct > 0) {
 
 // 		correct++;
 
-// 		$('.rightA').html('<h2>Marvelous, you got '+correct+' questions correct!<h2>');
+// 		$(').html('<h2>Marvelous, you got '+correct+' questions correct!<h2>');
 		
-// 	} 
+// 		} 
 
 // 	else {
 
@@ -57,9 +59,10 @@ function staphIt() {
 
 // 		incorrect++;
 
-// 	}
+// 		}
+	
+// 	})
 // }
-
 
 $('#challengeAcc').on('click', function() {
 
@@ -67,7 +70,7 @@ $('#challengeAcc').on('click', function() {
 
 	$('.container').hide();
 
-		$('.spellPool').fadeIn();
+		$('.spellPool').fadeIn('slow');
 
 });
 
