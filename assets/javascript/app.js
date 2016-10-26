@@ -1,5 +1,5 @@
-var timeLeft = 30;
-
+var timeLeft = 5;
+var audio = new Audio('assets/audio/nogood.mp3');
 
 
 $('.spellPool').hide();
@@ -25,9 +25,9 @@ function goingDown() {
 
 		$('.container').hide();
 
-		$('.spellPool').show();
+		$('.spellPool').fadeIn();
 
-		$()
+		audio.play();
 
 	}
 }
@@ -68,14 +68,11 @@ function scoreCalc() {
 
 $('#challengeAcc').on('click', function() {
 
+	audio.play();
+
 	$('.container').hide();
 
-		$('.spellPool').show(function() {
-
-		
-
-
-		});
-
+		$('.spellPool').fadeIn();
 
 });
+
