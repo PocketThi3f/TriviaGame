@@ -43,26 +43,31 @@ function staphIt() {
 
 // function scoreStats() {
 
-// 	$('input:checked').each(function() {
 
-// 	if (correct > 0) {
+// 	if 	{
+
+// 		$('input:checked').each(function() {
 
 // 		correct++;
 
-// 		$(').html('<h2>Marvelous, you got '+correct+' questions correct!<h2>');
-		
-// 		} 
+// 		$('.rightA').html('<p>Direct Hits: '+correct+' </p>');
+
+// 		}); 
+// 	}	
 
 // 	else {
 
-// 		$('.wrongA').on('click', scoreCalc);
+// 		$('input:unchecked').each(function() {
 
 // 		incorrect++;
 
-// 		}
+// 		$('.missedA').html('<p>Spells Missed: '+incorrect+' </p>');
+
+// 		});
 	
-// 	})
+// 	};
 // }
+
 
 $('#challengeAcc').on('click', function() {
 
@@ -73,4 +78,6 @@ $('#challengeAcc').on('click', function() {
 		$('.spellPool').fadeIn('slow');
 
 });
+
+
 
