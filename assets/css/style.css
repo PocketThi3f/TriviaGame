@@ -30,6 +30,15 @@ body {
 	min-height: 100%;
 }
 
+#challengeAcc {
+
+	text-align: center;
+	border: none;
+	background-color: aquamarine;
+	margin-left: 375px;
+	margin-top: 50px;
+	line-height: 50px;
+}
 /*@font-face {
 
   font-family: 'Harry Potter';
