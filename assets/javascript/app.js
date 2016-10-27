@@ -41,8 +41,10 @@ function staphIt() {
 
 }
 
+
 // function scoreStats() {
 
+// 		$('container').hide();
 
 // 	if 	{
 
@@ -50,7 +52,7 @@ function staphIt() {
 
 // 		correct++;
 
-// 		$('.rightA').html('<p>Direct Hits: '+correct+' </p>');
+// 		$('.answeredA').html('<p>Direct Hits: '+correct+' </p>');
 
 // 		}); 
 // 	}	
