@@ -1,8 +1,7 @@
-var timeLeft = 5;
+var timeLeft = 45;
 var audio = new Audio('assets/audio/nogood.mp3');
 
-
-$('.spellPool').hide();
+	$('.spellPool').hide();
 
 function countDownTimer() {
 
@@ -10,7 +9,7 @@ function countDownTimer() {
 
 }
 
-
+//Timer running from 45 seconds
 function goingDown() {
 
 	timeLeft--;
@@ -19,9 +18,9 @@ function goingDown() {
 
 	if (timeLeft < 1) {
 
-		staphIt();
-
 		$('#countDown').html('<h1>Oops! Time is up!</h1>');
+
+		staphIt();
 
 		$('.container').hide();
 
@@ -41,36 +40,36 @@ function staphIt() {
 
 }
 
-
+// Where the stats are updated; WIP
 // function scoreStats() {
 
-// 		$('container').hide();
+// 	for (var i = 0; i < Things.length; i++) {
 
-// 	if 	{
+// 		if 	{
 
-// 		$('input:checked').each(function() {
+// 			$('input:checked').each(function() {
 
-// 		correct++;
+// 			correct++;
 
-// 		$('.answeredA').html('<p>Direct Hits: '+correct+' </p>');
+// 			$('#answeredA').html('<p>Direct Hits: '+correct+' </p>');
 
-// 		}); 
-// 	}	
+// 			}); 
+// 		}	
 
-// 	else {
+// 		else {
 
-// 		$('input:unchecked').each(function() {
+// 			$('input:unchecked').each(function() {
 
-// 		incorrect++;
+// 			incorrect++;
 
-// 		$('.missedA').html('<p>Spells Missed: '+incorrect+' </p>');
+// 			$('#missedA').html('<p>Spells Missed: '+incorrect+' </p>');
 
-// 		});
+// 			});
 	
-// 	};
-// }
+// 		};
+// 	}
 
-
+//Regardless of answering questions, checked or unchecked.
 $('#challengeAcc').on('click', function() {
 
 	audio.play();
