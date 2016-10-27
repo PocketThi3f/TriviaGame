@@ -1,4 +1,4 @@
-var timeLeft = 45;
+var timeLeft = 5;
 var audio = new Audio('assets/audio/nogood.mp3');
 
 
@@ -23,7 +23,7 @@ function goingDown() {
 
 		$('#countDown').html('<h1>Oops! Time is up!</h1>');
 
-		$('.container').fadeout();
+		$('.container').hide();
 
 		$('.spellPool').fadeIn();
 
