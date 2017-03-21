@@ -1,3 +1,6 @@
 # TriviaGame
 
-Dive into the wonderful world of Harry Potter once again.
+A web application that allows the user to select answers with jQuery, Javascript, HTML/CSS basics.
+
+Theme:
+Harry Potter 
