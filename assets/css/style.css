@@ -1,80 +1,78 @@
 body {
+  background-image: url('http://vignette2.wikia.nocookie.net/harrypotter/images/f/ff/Pottermore_the_sorting_ceremony.jpg/revision/latest?cb=20140718104704&path-prefix=ru');
+  text-align: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+}
 
-	background-image: url('http://vignette2.wikia.nocookie.net/harrypotter/images/f/ff/Pottermore_the_sorting_ceremony.jpg/revision/latest?cb=20140718104704&path-prefix=ru');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	min-height: 100%;
+#wrapper {
+  padding: 5% 0;
+  background-color: #253247;
+  width:960px;
+  margin:5% auto;
+  box-sizing: border-box;
+  min-height: 80%;
+  opacity: 0.8;
+}
+
+#subwrapper {
+  position: relative;
+  top:20%;
+}
+
+button {
+  display:block;
+  width:400px;
+  height:100px;
+  margin: 10px auto 0 auto;
+  border:none;
+  cursor: pointer;
+  background:transparent;
+  font-size: 42px;;
 }
 
 
-.hairyText {
-
-	font-family: 'Mountains of Christmas', cursive;
-	font-size: 35px;
-	color: goldenrod;
-	text-align: center;
+h1 {
+  font-family: 'Geo', sans-serif;
+  font-size: 6.5em;
+  margin-bottom: 50px;
+  font-weight: bold;
+  color: white;
 }
 
-
-.unlimited {
-
-	font-size: 20px;
-	color: yellow;
-	text-align: center;
+h2 {
+  font-size: 35px;
+  margin-bottom: 25px;
+  color: white;
 }
 
-.container {
-
-	margin-top: 125px;
-	background-color: #330000;
-	margin-left: 450px;
-	width: 50%;
-	min-height: 100%;
+h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
-#challengeAcc {
-
-	text-align: center;
-	color: #e6e600;
-	border-width: 5px;
-	box-shadow: 3px;
-	background-color: #00134d;
-	margin-left: 365px;
-	margin-top: 50px;
-	line-height: 50px;
-}
-
-#countDown {
-
-	color: chocolate;
-	text-align: center;
+.magicalRiff {
 	font-size: 25px;
+	color: white;
 }
 
-#answeredA, #unansweredA, #missedA, #totalScore {
-
-	text-align: center;
-	color: #e6e600;
-	font-size: 25px;
-
+#start {
+  margin-top: 10%;
+  border:2px solid blue;
+  background: yellow;
 }
 
-#spark {
-	
-	margin-top: 350px;
-	font-family: 'Gloria Hallelujah', cursive;
-	color: #ff66ff;
-	text-align: center;
-	font-size: 45px;
+#quiz-area h2 {
+  margin-top: 50px;
 }
 
-.spellPool {
-
-	background-color: #00264d;
-	border-width: 2px;
-	margin: 0 auto;
-	width: 30%;
+button:hover {
+  border:2px solid blue;
+  background: pink;
 }
+
 /*@font-face {
 
   font-family: 'Harry Potter';
