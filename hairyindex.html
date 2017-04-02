@@ -3,113 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 		<title>Magical Journey</title>
-			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-			<link rel="stylesheet" href="assets/css/reset.css">
-			<link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
-			<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
 </head>
 <body>
 	
-<div class="container">
-
-		<div id="countDown"></div>
-
-		<br/>
-
-			<p class="hairyText"> (1) "Who is the Chosen One?"</p><br/>
-
-	<form class="unlimited">
-		<input type="radio" name="winner" class="rightA"> Harry Potter
-		<input type="radio" name="winner" class="wrongA"> Ronald Weasley
-		<input type="radio" name="winner" class="wrongA"> Hermoine Granger
-		<input type="radio" name="winner" class="wrongA"> Neville Longbottom
-		<input type="radio" name="winner" class="wrongA"> Draco Malfoy
-	</form>
-	<br/>
-
-			<p class="hairyText"> (2) "He who must not be named is...?"</p><br/>
-
-	<form class="unlimited">
-		<input type="radio" name="death" class="wrongA"> Severus Snape
-		<input type="radio" name="death" class="wrongA"> Lucius Malfoy
-		<input type="radio" name="death" class="wrongA"> Tom Marvolo Riddle
-		<input type="radio" name="death" class="rightA"> Albus Dumbledore
-		<input type="radio" name="death" class="wrongA"> Sirius Black
-	</form>
-	<br/>
-
-			<p class="hairyText"> (3) "It sucks every last drop of your happiness."</p><br/>
-
-	<form class="unlimited">
-		<input type="radio" name="darkentity" class="wrongA"> Snatcher
-		<input type="radio" name="darkentity" class="wrongA"> Kreacher
-		<input type="radio" name="darkentity" class="rightA"> Dementor
-		<input type="radio" name="darkentity" class="wrongA"> Death Eater
-		<input type="radio" name="darkentity" class="wrongA"> Lethifold
-	</form>
-	<br/>
-
-			<p class="hairyText"> (4) Quote: "You're a wizard, Harry."; Who said these words to Harry Potter?</p><br/>
-
-	<form class="unlimited">
-		<input type="radio" name="meaning" class="wrongA"> Minerva McGonagall
-		<input type="radio" name="meaning" class="rightA"> Rubeus Hagrid
-		<input type="radio" name="meaning" class="wrongA"> Remus Lupin
-		<input type="radio" name="meaning" class="wrongA"> Quirinus Quirrell
-		<input type="radio" name="meaning" class="wrongA"> Poppy Pompfrey
-	</form>
-	<br/>
-			<p class="hairyText"> (5) Quote: "You Lost Me My SERVANT!"; Who is this servant?</p><br/>
-
-	<form class="unlimited">
-		<input type="radio" name="mysterious" class="wrongA"> Mountain Troll
-		<input type="radio" name="mysterious" class="wrongA"> Basilisk
-		<input type="radio" name="mysterious" class="wrongA"> Scabbers
-		<input type="radio" name="mysterious" class="wrongA"> Hedwig
-		<input type="radio" name="mysterious" class="rightA"> Dobby
-	</form>
-	<br/>
-
-			<p class="hairyText"> (6) "In a game of Quidditch, what is the point value of a Golden Snitch?"</p><br/>
-
-	<form class="unlimited">
-		<input type="radio" name="goalie" class="wrongA"> 5 points
-		<input type="radio" name="goalie" class="wrongA"> 10 points
-		<input type="radio" name="goalie" class="wrongA"> 30 points
-		<input type="radio" name="goalie" class="rightA"> 150 points
-		<input type="radio" name="goalie" class="wrongA"> 1 point
-	</form>
-	<br/>
-
-			<p class="hairyText"> (7) "Which broomstick outclasses the others?"</p><br/>
-
-	<form class="unlimited">
-		<input type="radio" name="winner" class="rightA"> Firebolt
-		<input type="radio" name="winner" class="wrongA"> Moontrimmer
-		<input type="radio" name="winner" class="wrongA"> Nimbus 2001
-		<input type="radio" name="winner" class="wrongA"> Bluebottle
-		<input type="radio" name="winner" class="wrongA"> Nimbus 2000
-	</form>
-	<br/>
-
-		<button id="challengeAcc">Finished! Into the Train!</button>
-</div>
-
-		<div class="spellPool">
-			
-			<h2 id="spark">Mischief...Managed.</h2>
-			
-			<p id="answeredA">Direct Hits:</p>
-			<!-- <p id="unansweredA">Improperly Muttered:</p> -->
-			<p id="missedA">Spells Missed:</p>
-			<p id="totalScore">Total Spells Conjured Admirably:</p>
-			<!-- For here, direct hits counts as number of correct answers, muttered as unanswered, and finally missed as incorrect answers. -->
-
-		</div>			
+<div id="wrapper">
+    <h1>Totally Trivial Trivia!</h1>
+    <div id="subwrapper">
+      <div id="quiz-area">
+        <button id="start">Start</button>
+      </div>
+    </div>
+</div>	
 
 	<audio autoplay src="assets/audio/HarryPotterMainTheme.mp3"></audio>
-
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
 	<script type="text/javascript" src="assets/javascript/app.js"></script>
 	
 </body>
