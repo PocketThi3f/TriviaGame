@@ -4,13 +4,18 @@ var audio = new Audio('assets/audio/nogood.mp3');
 // jQuery where ID is in the HTML
 var panel = $('#quiz-area');
 
-// Button click for start and end game
+// Button click for start and done
 $(document).on('click', '#start', function(e) {
   game.start();
 });
 
 $(document).on('click', '#done', function(e) {
   game.done();
+  audio.play();
+});
+
+$(document).on('click', '#exit', function(e) {
+  game.exit();
 });
 
 // Questions Array in an object
@@ -144,5 +149,14 @@ var game = {
 	    panel.append('<h3>Correct Answers: ' + this.correct + '</h3>');
 	    panel.append('<h3>Incorrect Answers: ' + this.incorrect + '</h3>');
 	    panel.append('<h3>Unanswered: ' + (questions.length - (this.incorrect + this.correct)) + '</h3><br/>');
+
+	    panel.append("<button id='exit'>Quit</button");
+    },
+    exit: function() {
+
+    	clearInterval(timer);
+
+    	panel.empty();
+    	panel.append("<h2>Thanks for playing! Hope you come back soon.</h2>");
     }
 };

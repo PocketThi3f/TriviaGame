@@ -23,25 +23,22 @@ body {
 
 /*Area where results are ultimately displayed*/
 #subwrapper {
+  font-size: 25px;
+  font-family: 'Macondo', cursive;
   position: relative;
-  top:20%;
+  top: 20%;
 }
 
-/*Overall styling of buttons*/
+/*Overall default styling of buttons*/
 button {
   display: block;
-  width:400px;
-  height:100px;
+  width: 400px;
+  height: 100px;
   margin: 10px auto 0 auto;
-  border:none;
+  border: none;
   cursor: pointer;
   background: transparent;
   font-size: 42px;
-}
-
-button: hover {
-  border:2px solid red;
-  background: yellow;
 }
 
 /*Styling of biggest font tag*/
@@ -53,7 +50,6 @@ h1 {
 
 /*Styling of main result title and questions array*/
 h2 {
-  font-size: 35px;
   margin-bottom: 25px;
   color: white;
 }
@@ -64,16 +60,37 @@ h3 {
   margin-bottom: 10px;
 }
 
+/*Input array values*/
+h6 {
+  font-family: 'Macondo', cursive;
+}
+
 /*Styling of start button*/
 #start {
   margin-top: 10%;
   border:2px solid blue;
-  background: yellow;
+  background: #c9b522;
+  font-family: 'Spirax', cursive;
+}
+
+/*Done button styling*/
+#done {
+  font-family: 'Spirax', cursive;
+}
+
+/*Exit game button styling*/
+#exit {
+  font-family: 'Spirax', cursive;
 }
 
 /*Positioning of questions array*/
 #quiz-area h2 {
   margin-top: 50px;
+}
+
+button:hover {
+  border: 2px solid black;
+  background: #c9b522;
 }
 
 /*@font-face {
