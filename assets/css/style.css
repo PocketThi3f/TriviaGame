@@ -6,6 +6,7 @@ body {
   max-width: 100%;
   max-height: 100%;
   background-size: cover;
+  color: white;
 }
 
 /*Font size and style affected here, along with main div with id wrapper*/
@@ -45,13 +46,13 @@ button {
 h1 {
   margin-bottom: 50px;
   font-weight: bold;
-  color: white;
+  color: yellow;
 }
 
 /*Styling of main result title and questions array*/
 h2 {
   margin-bottom: 25px;
-  color: white;
+  color: yellow;
 }
 
 /*Styling of results div*/
