@@ -12,7 +12,7 @@ Harry Potter
 * jQuery
 
 # How to create a local copy:
-* git clone <link here.git>
+* git clone gitlink here
 
 Then open with the browser! Enjoy!
 
