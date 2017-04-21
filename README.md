@@ -7,6 +7,12 @@ A web application that allows the user to select answers with jQuery, Javascript
 Harry Potter 
 
 # Technologies Used:
-HTML5/CSS3,
-JavaScript,
-jQuery
+* HTML5/CSS3,
+* JavaScript,
+* jQuery
+
+# How to create a local copy:
+* git clone <link here.git>
+
+Then open with the browser! Enjoy!
+
