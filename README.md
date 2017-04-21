@@ -12,7 +12,6 @@ Harry Potter
 * jQuery
 
 # How to create a local copy:
-* git clone gitlink here
+* git clone repo
 
-Then open with the browser! Enjoy!
-
+Then depending on your browser open with your editor and right click *open in browser* to open a new page! Enjoy!
